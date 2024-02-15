@@ -34,7 +34,7 @@
       e.target.innerHTML = `<img src='${Circle_icon}'>`;
       data[num] = "O";
     }
-    setCount(count++); // Increment count here to ensure it's done regardless of the if/else outcome
+    setCount(count+1); // Increment count here to ensure it's done regardless of the if/else outcome
     checkWin();
   };
 
